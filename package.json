@@ -1,0 +1,24 @@
+{
+  "name": "git-hook",
+  "version": "1.0.0",
+  "description": "automated deploy",
+  "main": "init.js",
+  "dependencies": {},
+  "devDependencies": {
+    "budo":"^4.2.1"
+    },
+  "scripts": {
+    "start": "budo index.js:bundle.js --live",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "auto",
+    "deploy",
+    "git",
+    "hook",
+    "post",
+    "recieve"
+  ],
+  "author": "Mukesh <codejets@gmail.com> (http://www.codejets.com/)",
+  "license": "MIT"
+}
