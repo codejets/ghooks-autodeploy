@@ -1,6 +1,6 @@
 var x = document.querySelector('h1')
-function blink () {
+function flicker () {
 	x.style.opacity = x.style.opacity == 1 ? 0 : 1;
-	setTimeout(blink, 1000); 
+	setTimeout(flicker, 1000); 
 }
-blink()
+flicker()
